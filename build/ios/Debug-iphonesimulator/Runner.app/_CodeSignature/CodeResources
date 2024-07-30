@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		AI8NyXG8mVfeyquJqv/bO7KWEM0=
+		MCQz6DlgkwAMxWahnxZGOKPLE9o=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		rjrlIXEcC/muPF81D1NBwGbMQzM=
+		buslrbfFsr+wP10dGK5/SVTBtdk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		Rn2SSnNVmh4sY8e34WplXUJdnvs=
+		VvNz2vEaKULvbp7LqzrfwEUNdnw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		8J2cwajEEorvo0h5WHtLy7m3/yE=
+		DYAa2EdSEEiiReRg7CtQvJzZx2g=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		H6QEN19rNNeF00RhgYkv+lsPS5Q=
+		mXMjWZ/rJTzX+J96bz2iBVZVLs0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Black.ttf</key>
 		<data>
@@ -100,6 +100,14 @@
 		<data>
 		ikrOk5LQa8t/jqL1FpsH5MODqQ0=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/i18n/en.json</key>
+		<data>
+		ZkmwCZbvnwqPztIRSEjfPqPmQHg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/i18n/hi.json</key>
+		<data>
+		U4K4yTCOGBuPdAcIv28Et8ulr/Q=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/svg/dashboard.svg</key>
 		<data>
 		Lr4yogHpdSAXhvSXX6sKcZ0lX1k=
@@ -126,7 +134,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		RuDBPNalxc0rsT9Dv2sY8UE5LOI=
+		XGhVLIG7OyF83GSXxPZu9mNLdzI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -228,6 +236,18 @@
 		<data>
 		Ubat0LvE4LUgCwHeyl0Anx2vnzk=
 		</data>
+		<key>Frameworks/flutter_localization.framework/Info.plist</key>
+		<data>
+		ulcTtFN7L1/o/76vehxiTuKO38g=
+		</data>
+		<key>Frameworks/flutter_localization.framework/_CodeSignature/CodeResources</key>
+		<data>
+		3Y2nURqGmVV0m94igTH6leV84zk=
+		</data>
+		<key>Frameworks/flutter_localization.framework/flutter_localization</key>
+		<data>
+		ph4HIYuqg68wFDVvh+5dofrUcak=
+		</data>
 		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
 		<data>
 		ANHXgeTDDwAf9kXCgoY0u6iKEeQ=
@@ -247,6 +267,26 @@
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
+		<key>Frameworks/shared_preferences_foundation.framework/Info.plist</key>
+		<data>
+		jR77dtk0klshFxdG7j7LB/XppuE=
+		</data>
+		<key>Frameworks/shared_preferences_foundation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		N0H7shMT5ldKV6QeKJBE53+I9NU=
+		</data>
+		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation</key>
+		<data>
+		HuL4mJ5FS6k4KCRlo8Gn/lVAtx8=
+		</data>
+		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/Info.plist</key>
+		<data>
+		fO3Y28L9GheITilCB2n5cx2vh7c=
+		</data>
+		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		6uLTlq7fgHHWA8emYDf4ImHC+AY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -333,7 +373,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T0+jzVzcOnevBhfY7nZKvhmRTjYaOMgp+Zmph/67abo=
+			2ji6MsuTwC7zN0+65PItYtzR2Ftb5zEUTwR2DVWfWIc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -347,21 +387,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LNHH5jLai06HxPbGmGR0JhuTJdr8K0JOoydtzVg0Azk=
+			k2n/InSvMoCdqPSF28KFO+gkbk+kGkrBBmmI1cuwp98=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UGy/yUcGpfGAKFbxRpPLFk2600BA4nT9sJZlrT/AJUA=
+			4HECE4dCI7ARnkxc/MQdCdVsr8ZrPCwEsVVDaMNr7YM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJJDnsYyyPCQOZnr0DburBETkmKqg62ppWDO+F0EwZQ=
+			B4GDee6EpZ2+etTaJspIkkgj51RdZRPt14fYBYUyKdc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -375,7 +415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NCHBnF4mOdME4vu5dVrf+mzYrc06+H6eRodlUBXwkxM=
+			XZiKmF7KEqcic1aXQLoG4j9dTwpI9RtC23sWTQQn7X8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Black.ttf</key>
@@ -427,6 +467,20 @@
 			JIwCRLNQ7GiICZaqa+bXeWJ0tJmS1fy77+JRkGqk6jY=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/i18n/en.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PPI7HpkBwKSkh74HK8oDhEQMhhcaQL3bPq76q2pg7Fs=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/i18n/hi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HdWlNIgqEvQ49RPT4SpiwyKdCE+MLqQNAr/2qeNvoCA=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/svg/dashboard.svg</key>
 		<dict>
 			<key>hash2</key>
@@ -473,7 +527,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UqQLNpaK3+0jOaQjhiBiHbHgqMt9Yu3n9AiUQPaSoM=
+			eLAn7yEO6Prd4Atuf6FkiA/DmCy+O2hDj1ZZ6JcYo1M=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -651,6 +705,27 @@
 			ZepykIMSjfzhwAcmupMrkaqvXkhza1ZE3TdHjl8odaw=
 			</data>
 		</dict>
+		<key>Frameworks/flutter_localization.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l8WqyQCDfHReXFDuPz6s7XjNhsGDsTaBPERMQGNsgr8=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_localization.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qwX8Ea34Qc03pTeXbr8SUAihn3dfypFuPWapFr6F4TI=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_localization.framework/flutter_localization</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aLoggo70ZCoQtqt98IpDA4oUleUTs7DrH7L5aQZZqAU=
+			</data>
+		</dict>
 		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -684,6 +759,41 @@
 			<key>hash2</key>
 			<data>
 			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
+		<key>Frameworks/shared_preferences_foundation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mFKhj5zwGF6I4/6dMT4X546tmYhhDdqCq1YO5zT9uKU=
+			</data>
+		</dict>
+		<key>Frameworks/shared_preferences_foundation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FXM0kyrLpGa3pTpTiuCfRZCH8CHm5Uj9HvhEsx/CQVw=
+			</data>
+		</dict>
+		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			swtHoHWhg9K/wrow3+FH/+CfYFScHd9hDJKlAAV2Wpo=
+			</data>
+		</dict>
+		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			43R5KUSj6/eaPaSxzTsUvCQUDz6cWS93VAZCZplsXF0=
+			</data>
+		</dict>
+		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BWQouTi9VwGKYAGdFcPB7i+nJ/I2h1mLu9k0hIsYCxo=
 			</data>
 		</dict>
 	</dict>

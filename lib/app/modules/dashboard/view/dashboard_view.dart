@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_translate/flutter_translate.dart';
 import 'package:get/get.dart';
 import 'package:vedhas/app/global_widgets/custom_text.dart';
+import 'package:vedhas/translations/keys.dart';
 
-import '../../../../core/constants/string_constants.dart';
 
 class DashboardView extends GetView {
   const DashboardView({super.key});
@@ -11,7 +12,7 @@ class DashboardView extends GetView {
   Widget build(BuildContext context) {
     return Center(
       child: CustomText.semiBold24(
-        StringConstants.dashboard.tr,
+        translate(Keys.Screens_Dashboard),
       ),
     );
   }

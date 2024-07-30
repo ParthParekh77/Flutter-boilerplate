@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_translate/flutter_translate.dart';
 import 'package:get/get.dart';
 import 'package:vedhas/gen/assets.gen.dart';
+import 'package:vedhas/translations/keys.dart';
 
-import '../../../../core/constants/string_constants.dart';
 import '../../../../core/utils/asset_utils.dart';
 import '../../../global_widgets/custom_appbar.dart';
 import '../../dashboard/view/dashboard_view.dart';
@@ -19,7 +20,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(
-        title: StringConstants.home.tr,
+        title: translate(Keys.Generalkeywords_Categories),
       ),
       body: Obx(() => IndexedStack(
             index: controller.currentIndex.value,
@@ -39,19 +40,19 @@ class HomeView extends GetView<HomeController> {
             items: [
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(Assets.images.svg.dashboard),
-                label: StringConstants.dashboard.tr,
+                label: translate(Keys.Screens_Dashboard),
               ),
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(AssetUtils.messagesIcon),
-                label: StringConstants.messages.tr,
+                label: translate(Keys.Screens_Messages),
               ),
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(Assets.images.svg.notification),
-                label: StringConstants.notifications.tr,
+                label: translate(Keys.Screens_Notification),
               ),
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(AssetUtils.settingsIcon),
-                label: StringConstants.settings.tr,
+                label: translate(Keys.Screens_Settings),
               ),
             ],
           )),

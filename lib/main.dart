@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_translate/flutter_translate.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
@@ -9,13 +12,17 @@ import 'core/theme/app_theme.dart';
 import 'global_controller.dart';
 import 'services/api_service.dart';
 import 'services/storage_service.dart';
-import 'translations/app_translations.dart';
 
 void main() async {
   await GetStorage.init();
   await initServices();
-
-  runApp(MyApp());
+  var delegate = await LocalizationDelegate.create(
+    fallbackLocale: 'en',
+    supportedLocales: [
+      'en',
+      'hi',
+    ],);
+  runApp(LocalizedApp(delegate, MyApp()));
 }
 
 Future<void> initServices() async {
@@ -33,15 +40,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var localizationDelegate = LocalizedApp.of(context).delegate;
     return GetMaterialApp(
       title: 'BullForce',
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: globalController.isDarkMode.value ? ThemeMode.dark : ThemeMode.light,
-      translations: AppTranslations(),
-      locale: Get.deviceLocale,
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        localizationDelegate],
+      locale: localizationDelegate.currentLocale,
+      supportedLocales: localizationDelegate.supportedLocales,
       initialBinding: LoginBinding(),
-      fallbackLocale: const Locale('en', 'US'),
       home: LoginView(),
     );
   }
