@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_primary">#9688FF</color>
+    <color name="dark_primary_swatch" type="material">#FFDAFF</color>
+    <color name="dark_secondary">#B1D1D9</color>
+    <color name="dark_primary_background">#8989BC</color>
+    <color name="light_primary">#9090B0</color>
+    <color name="light_primary_background">#F6F6FF</color>
+    <color name="light_primary_image_background">#E6E6F6</color>
+    <color name="light_secondary">#B1D1D9</color>
+    <color name="light_primary_background">#8989BC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textError">#FF5050</color>
+    <color name="green">#1FAB35</color>
+    <color name="red">#E22244</color>
+    <color name="profile_background" type="material">#E6E6FF</color>
+    <color name="red_background">#FFF4F4</color>
+</resources>

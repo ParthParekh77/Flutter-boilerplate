@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:vedhas/gen/assets.gen.dart';
 
 import '../../../../core/constants/string_constants.dart';
 import '../../../../core/utils/asset_utils.dart';
@@ -37,7 +38,7 @@ class HomeView extends GetView<HomeController> {
             backgroundColor: Colors.orange, // Background color
             items: [
               BottomNavigationBarItem(
-                icon: SvgPicture.asset(AssetUtils.dashboardIcon),
+                icon: SvgPicture.asset(Assets.images.svg.dashboard),
                 label: StringConstants.dashboard.tr,
               ),
               BottomNavigationBarItem(
@@ -45,7 +46,7 @@ class HomeView extends GetView<HomeController> {
                 label: StringConstants.messages.tr,
               ),
               BottomNavigationBarItem(
-                icon: SvgPicture.asset(AssetUtils.notificationsIcon),
+                icon: SvgPicture.asset(Assets.images.svg.notification),
                 label: StringConstants.notifications.tr,
               ),
               BottomNavigationBarItem(

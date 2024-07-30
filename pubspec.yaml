@@ -43,8 +43,10 @@ dependencies:
   dio: ^5.5.0+1
 
 dev_dependencies:
+  build_runner: ^2.4.11
   flutter_test:
     sdk: flutter
+  flutter_gen_runner: ^5.6.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -80,3 +82,9 @@ flutter:
 
   assets:
     - assets/images/svg/
+
+
+flutter_gen:
+  colors:
+    inputs:
+      - assets/colors/colors.xml

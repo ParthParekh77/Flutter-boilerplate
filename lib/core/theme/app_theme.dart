@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vedhas/core/theme/text_styles.dart';
+import 'package:vedhas/gen/colors.gen.dart';
 
 final ThemeData lightTheme = ThemeData(
   fontFamily: 'Poppins', // Replace with your desired font family
@@ -13,23 +14,23 @@ final ThemeData lightTheme = ThemeData(
   ),
   brightness: Brightness.light,
   colorScheme: ColorScheme.light(
-    primary: Colors.teal, // Vibrant primary color
-    onPrimary: Colors.white,
-    secondary: Colors.amber, // Vibrant secondary color
+    primary: ColorName.lightPrimary, // Vibrant primary color
+    onPrimary: ColorName.white,
+    secondary: ColorName.lightSecondary, // Vibrant secondary color
     onSecondary: Colors.black,
-    background: Colors.white,
+    background: ColorName.white,
     onBackground: Colors.black,
     surface: Colors.grey[200]!, // Light surface for contrast
     onSurface: Colors.black,
     error: Colors.redAccent, // Slightly brighter error color
-    onError: Colors.white,
+    onError: ColorName.white,
   ),
   primaryColor: Colors.teal,
   hintColor: Colors.tealAccent, // Slightly lighter hint color
-  scaffoldBackgroundColor: Colors.white,
+  scaffoldBackgroundColor: ColorName.white,
   appBarTheme: const AppBarTheme(
     color: Colors.teal,
-    iconTheme: IconThemeData(color: Colors.white),
+    iconTheme: IconThemeData(color: ColorName.white),
   ),
   buttonTheme: const ButtonThemeData(
     buttonColor: Colors.amber, // Matches the secondary color
@@ -40,20 +41,20 @@ final ThemeData lightTheme = ThemeData(
 final ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   colorScheme: ColorScheme.dark(
-    primary: Colors.teal, // Consistent with the light theme
-    onPrimary: Colors.white,
+    primary: ColorName.darkPrimary, // Consistent with the light theme
+    onPrimary: ColorName.white,
     secondary: Colors.amber, // Vibrant accent in dark mode
     onSecondary: Colors.black,
     background: Colors.black,
     onBackground: Colors.white,
     surface: Colors.grey[850]!, // Dark surface for depth
     onSurface: Colors.white,
-    error: Colors.redAccent, // Brighter error for visibility
+    error: ColorName.textError, // Brighter error for visibility
     onError: Colors.black,
   ),
-  primaryColor: Colors.teal,
-  hintColor: Colors.tealAccent, // Consistent hint color
-  scaffoldBackgroundColor: Colors.black,
+  primaryColor: ColorName.darkPrimary,
+  hintColor: ColorName.darkPrimarySwatch, // Consistent hint color
+  scaffoldBackgroundColor: ColorName.darkPrimaryBackground,
   appBarTheme: const AppBarTheme(
     color: Colors.teal,
     iconTheme: IconThemeData(color: Colors.white),
