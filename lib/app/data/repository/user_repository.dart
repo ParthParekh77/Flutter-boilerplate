@@ -18,6 +18,15 @@ class UserRepository {
     return userModelFromJson(response.toString());
   }
 
+  Future<dynamic> getDynamicTheme() async {
+    final response = await _apiService.post('/api/users', {
+      'name': 'name',
+      'job': 'job',
+    });
+
+    return response;
+  }
+
   Future<UserModel> updateUser(UserModel user) async {
     final response = await _apiService.post('/api/users/${user.id}', user.toJson());
     storageService.write(key: AppConstants.user, value: response);

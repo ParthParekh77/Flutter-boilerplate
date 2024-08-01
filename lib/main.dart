@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       title: 'BullForce',
       theme: lightTheme,
       darkTheme: darkTheme,
-      themeMode: globalController.isDarkMode.value ? ThemeMode.dark : ThemeMode.light,
+      themeMode: globalController.isDarkMode ? ThemeMode.dark : ThemeMode.light,
       translations: AppTranslations(),
       locale: Get.deviceLocale,
       initialBinding: LoginBinding(),
