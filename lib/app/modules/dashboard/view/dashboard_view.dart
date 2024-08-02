@@ -12,7 +12,8 @@ class DashboardView extends GetView {
   Widget build(BuildContext context) {
     return Center(
       child: CustomText.semiBold24(
-        translate(Keys.Screens_Dashboard),
+        'Dashboard',
+        // translate(Keys.Screens_Dashboard),
       ),
     );
   }

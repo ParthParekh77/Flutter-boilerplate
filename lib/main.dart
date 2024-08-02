@@ -4,6 +4,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:vedhas/app/domain/usecase/login_usecase.dart';
+import 'package:vedhas/dependency_injection.dart';
 
 import 'app/data/repository/user_repository.dart';
 import 'app/modules/login/binding/login_binding.dart';
@@ -26,11 +28,13 @@ void main() async {
 }
 
 Future<void> initServices() async {
+  setupLocator();
   await Get.putAsync<StorageService>(() async => StorageService().init());
   // await Get.putAsync(() => LogService().init());
   // await Get.putAsync(() => WebSocketService().init());
   Get.put(ApiService());
-  Get.put(UserRepository(Get.find<ApiService>(), Get.find<StorageService>()));
+  // Get.put(UserRepository(Get.find<ApiService>(), Get.find<StorageService>()));
+  // Get.put(UserRepository(Get.find<ApiService>(), Get.find<StorageService>()));
   Get.put(GlobalController());
 }
 
@@ -49,6 +53,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
         localizationDelegate],
       locale: localizationDelegate.currentLocale,
       supportedLocales: localizationDelegate.supportedLocales,

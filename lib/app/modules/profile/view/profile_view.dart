@@ -29,12 +29,12 @@ class ProfileView extends GetView<ProfileController> {
               const SizedBox(height: 20),
               CustomTextField(
                 controller: controller.nameTextController,
-                hintText: translate(Keys.Screens_Name),
+                hintText: 'Name',
               ),
               const SizedBox(height: 20),
               CustomButton(
                 onPressed: () => controller.updateProfile(),
-                text: translate(Keys.Screens_Updateprofile),
+                text: 'Update profile',
               ),
             ],
           ),

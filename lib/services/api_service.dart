@@ -5,9 +5,9 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_disposable.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
+import 'package:vedhas/services/error_exception/exceptions.dart';
 
 import '../core/constants/app_constants.dart';
-import '../core/errors/exceptions.dart';
 import 'storage_service.dart';
 
 class ApiService extends GetxService {
@@ -101,7 +101,7 @@ class ApiService extends GetxService {
     } else if (error.error is SocketException) {
       return DioException(
         requestOptions: error.requestOptions,
-        error: NoInternetException('No internet connection. Please check your connection and try again.'),
+        error: NoNetworkException('No internet connection. Please check your connection and try again.'),
       );
     } else {
       return DioException(

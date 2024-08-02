@@ -146,7 +146,8 @@
   },
   "errors": {
     "permission": {
-      "EnableFromSetting": "कृपया डिवाइस सेटिंग्स से अनुमति सक्षम करें"
+      "EnableFromSetting": "कृपया डिवाइस सेटिंग्स से अनुमति सक्षम करें",
+      "NoInternet": "इंटरनेट नहीं है.. कृपया अपनी इंटरनेट कनेक्टिविटी जांचें"
     },
     "validation": {
       "Phone": "फ़ोन"
@@ -157,7 +158,25 @@
       "NoResult": "कोई परिणाम नहीं मिला!",
       "SearchAndDiscoverUser": "उन स्टॉक और बांस्ड को खोजें जिन्हें आप ढूंढ रहे हैं",
       "SearchHashTags": "कृपया हैशटैग के लिए खोजें",
-      "MinimumAmountShouldBe100": "न्यूनतम राशि 100 होनी चाहिए"
+      "MinimumAmountShouldBe100": "न्यूनतम राशि 100 होनी चाहिए",
+      "networkExceptions" : "कार्यान्वित नहीं किया गया",
+      "requestCancelled" : "अनुरोध रद्द किया गया",
+      "internalServerError" : "आंतरिक सर्वर त्रुटि",
+      "notFound" : "नहीं मिला",
+      "serviceUnavailable" : "सेवा अनुपलब्ध",
+      "methodNotAllowed" : "विधि अनुमत",
+      "badRequest" : "खराब अनुरोध",
+      "unauthorizedRequest" : "अनधिकृत अनुरोध",
+      "unexpectedError" : "अप्रत्याशित त्रुटि हुई",
+      "requestTimeout" : "कनेक्शन अनुरोध समय समाप्त",
+      "noInternetConnection" : "कोई इंटरनेट कनेक्शन नहीं",
+      "conflict" : "संघर्ष के कारण त्रुटि",
+      "sendTimeout" : "API सर्वर के कनेक्शन में भेजने का समय समाप्त",
+      "unableToProcess" : "डेटा को संसाधित करने में असमर्थ",
+      "formatException" : "अप्रत्याशित त्रुटि हुई",
+      "notAcceptable" : "स्वीकार्य नहीं",
+      "somethingWentWrong" : "कुछ गलत हुआ",
+      "sessionExpiredMessage" : "सत्र समाप्त हो गया। कृपया फिर से लॉगिन करें।"
     }
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_translate/flutter_translate.dart';
 import 'package:get/get.dart';
+import 'package:vedhas/core/constants/string_constants.dart';
 import 'package:vedhas/gen/assets.gen.dart';
 import 'package:vedhas/translations/keys.dart';
 
@@ -19,8 +20,9 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(
-        title: translate(Keys.Generalkeywords_Categories),
+      appBar: const CustomAppBar(
+        title: 'Categories',
+        // title: translate(Keys.Generalkeywords_Categories),
       ),
       body: Obx(() => IndexedStack(
             index: controller.currentIndex.value,
@@ -40,19 +42,21 @@ class HomeView extends GetView<HomeController> {
             items: [
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(Assets.images.svg.dashboard),
-                label: translate(Keys.Screens_Dashboard),
+                label: 'Dashboard',
+                // label: translate(Keys.Appbar),
               ),
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(AssetUtils.messagesIcon),
-                label: translate(Keys.Screens_Messages),
+                label: StringConstants.messages,
               ),
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(Assets.images.svg.notification),
-                label: translate(Keys.Screens_Notification),
+                label: StringConstants.notifications,
               ),
               BottomNavigationBarItem(
                 icon: SvgPicture.asset(AssetUtils.settingsIcon),
-                label: translate(Keys.Screens_Settings),
+                label: "Settings",
+                // label: translate(Keys.Screens_Settings),
               ),
             ],
           )),

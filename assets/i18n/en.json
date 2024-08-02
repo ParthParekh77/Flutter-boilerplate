@@ -133,7 +133,8 @@
   },
   "errors": {
     "permission": {
-      "EnableFromSetting": "Please enable permission from device settings"
+      "EnableFromSetting": "Please enable permission from device settings",
+      "NoInternet": "No Internet.. Please check your internet connectivity"
     },
     "validation": {
       "Phone": "Please enter valid phone number"
@@ -144,7 +145,26 @@
       "NoResult": "No result found!",
       "SearchAndDiscoverUser": "Search & Discover your favorite stock",
       "SearchHashTags": "Please Search for the Hashtags",
-      "MinimumAmountShouldBe100": "Minimum Amount should be 100"
+      "MinimumAmountShouldBe100": "Minimum Amount should be 100",
+      "networkExceptions" : "Not Implemented",
+      "requestCancelled" : "Request Cancelled",
+      "internalServerError" : "Internal Server Error",
+      "notFound" : "Not found",
+      "serviceUnavailable" : "Service unavailable",
+      "methodNotAllowed" : "Method Allowed",
+      "badRequest" : "Bad request",
+      "unauthorizedRequest" : "Unauthorized request",
+      "unexpectedError" : "Unexpected error occurred",
+      "requestTimeout" : "Connection request timeout",
+      "noInternetConnection" : "No internet connection",
+      "conflict" : "Error due to a conflict",
+      "sendTimeout" : "Send timeout in connection with API server",
+      "unableToProcess" : "Unable to process the data",
+      "formatException" : "Unexpected error occurred",
+      "notAcceptable" : "Not acceptable",
+      "somethingWentWrong" : "Something Went Wrong",
+      "sessionExpiredMessage" : "Session expired. please login again."
     }
-  }
+  },
+  "appbar": "Finoux"
 }
